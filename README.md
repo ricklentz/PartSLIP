@@ -3,11 +3,17 @@ official implementation of "PartSLIP: Low-Shot Part Segmentation for 3D Point Cl
 
 We explores a novel way for low-shot part segmentation of 3D point clouds by leveraging a pretrained image-language model (GLIP). We show that our method enables excellent zero-shot 3D part segmentation. Our few-shot version not only outperforms existing few-shot approaches by a large margin but also achieves highly competitive results compared to the fully supervised counterpart. Furthermore, we demonstrate that our method can be directly applied to iPhone-scanned point clouds without significant domain gaps.
 
-![teaser](fig/teaser.png)
-<figcaption style="text-align:center">results on PartNetE dataset</figcaption>
 
-![real](fig/real_pc.png)
-<figcaption style="text-align:center">results on iPhone-scanned real point clouds</figcaption>
+<p align="center">
+<img src="fig/teaser.png" alt="teaser">
+results on PartNetE dataset
+</p>
+
+<p align="center">
+<img src="fig/real_pc.png" alt="real_pc">
+results on iPhone-scanned real point clouds
+</p>
+
 
 **We are currently working on making the code available and will update you shortly. Please stay tuned!**
 
