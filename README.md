@@ -30,8 +30,9 @@ pip install "git+https://github.com/facebookresearch/pytorch3d.git"
 ```
 
 ### Install GLIP
-We incorporate [GLIP](https://github.com/microsoft/GLIP) and made some small changes. Please install it by the following commands or its official guide:
+We incorporate [GLIP](https://github.com/microsoft/GLIP) and made some small changes. Please clone our [*modified version*](https://github.com/Colin97/GLIP) and install it by the following commands or its official guide:
 ```
+git submodule update --init
 cd GLIP
 python setup.py build develop --user
 ```
